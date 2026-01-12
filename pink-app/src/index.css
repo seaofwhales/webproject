@@ -44,7 +44,6 @@ body {
   padding: 0 20px;
 }
 
-/* Header */
 header {
   background: var(--white);
   box-shadow: 0 2px 20px rgba(255, 105, 180, 0.1);
@@ -107,7 +106,6 @@ nav {
   box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
 }
 
-/* Forms */
 .auth-container {
   max-width: 400px;
   margin: 2rem auto;
@@ -144,7 +142,7 @@ nav {
   border-color: var(--primary-pink);
 }
 
-/* Cards */
+
 .card {
   background: var(--white);
   border-radius: 20px;
@@ -189,7 +187,6 @@ nav {
   margin-bottom: 1rem;
 }
 
-/* Dashboard */
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -205,7 +202,7 @@ nav {
   text-align: center;
 }
 
-/* Profile */
+
 .profile-header {
   display: flex;
   align-items: center;
@@ -225,7 +222,7 @@ nav {
   color: white;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
